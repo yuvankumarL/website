@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anchor example</title>
+    </head>
+    <body>
+        <!--In this case:
+        &lt; represents <
+        &gt; represents >-->
+
+        <!--1.href-->
+        <p><b>href</b> the URL of the page the link goes to. This is the most important attribute for the &lt;a&gt; tag.</p>
+        <a href="https://www.google.com">click me</a>
+        <hr>
+        
+        <p><b>target</b> Specifies where to open the linked document.</p>
+        
+        <pre>Common values:
+            _self: Opens in the same window (default).
+            _blank: Opens in a new window or tab.
+            _parent: Opens in the parent frame.
+            _top: Opens in the full body of the window, breaking out of frames.
+        </pre>
+        <a href="https://www.google.com" target="_self"> Opens in the same window</a><br>
+        <a href="https://www.google.com" target="_blank">Open in new tab</a><br>
+        <a href="https://www.google.com" target="_parent"> Opens in the parent frame.</a><br>
+        <a href="https://www.google.com" target="_top">Opens in the full body of the window, breaking out of frames.</a><br>
+        <hr>
+
+        <pre>title:
+Provides additional information about the link, usually displayed as a tooltip when the mouse hovers over it</pre>
+        <a href="https://www.google.com" title="Go to Example website">Example</a>
+        <hr>
+
+        <pre><b>rel (Relationship):</b>
+Defines the relationship between the current document and the linked document.
+Common values:
+        <b>nofollow:</b> Instructs search engines not to follow the link.
+        <b>noopener:</b> Prevents the new page from accessing the window.opener object.
+        <b>noreferrer:</b> Prevents sending referrer information to the new page.</pre>
+
+        <a href="https://www.google.com" rel="nofollow">No follow link</a><br>
+        <a href="https://www.google.com" rel="noopener">Prevents the new page from accessing the window.opener object.</a><br>
+        <a href="https://www.google.com" rel="nofollow">Prevents sending referrer information to the new page.</a><br>
+        <hr>
+
+        <pre><b>download:</b>
+When present, this attribute forces the browser to download the linked file instead of navigating to it. You can optionally specify a filename for the downloaded file</pre>
+        <a href="files\20MIS0395_REVIEW_2.docx.pdf" download="MyReport.pdf">Download Report</a>
+        <br>
+        <hr>
+        
+        <pre><b>hreflang:</b>
+
+Specifies the language of the linked document. This is useful for search engines and accessibility.</pre>
+        <a href="https://www.google.com" hreflang="es">Visit Spanish Example</a>
+        <hr>
+
+        <pre><b>type:</b>
+Specifies the media type (MIME type) of the linked document.</pre>
+        <a href="files\20MIS0395_REVIEW_2.docx.pdf" type="application/pdf">Download PDF</a>
+        <hr>
+
+        <pre><b>accesskey:</b>
+
+Defines a shortcut key to activate/focus the link.</pre>
+        <a href="https://www.example.com" accesskey="e">Press Alt + E to visit Example</a>
+        <hr>
+
+        <pre><b>class</b> and <b>id</b>:
+Used to apply styles or scripting to the link.</pre>
+        <a href="https://www.example.com" class="button-link">Styled Link</a>
+        <hr>
+
+        <pre>data-* (Custom Data Attributes):
+Allows you to store extra information on the link for later use in JavaScript</pre>
+        <a href="https://www.example.com" data-user="123">Link with custom data</a>
+
+    </body>
+</html>
