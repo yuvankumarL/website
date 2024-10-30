@@ -4,6 +4,9 @@ body{
 h2{
     color: white;
 }
-p{
-    color: white;
+.odd{
+    color: red;
+}
+.even{
+    color:blue;
 }
