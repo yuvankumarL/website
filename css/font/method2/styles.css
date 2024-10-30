@@ -1,0 +1,9 @@
+h2{
+    font-family: Roboto, verdana, arial;
+}
+p{
+    font-family: "Open Sans", "lucida console", "courier new";
+    font-size:1em; /* 1em --> 100%*/
+    font-weight: normal;
+    font-style: italic;
+}

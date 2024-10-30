@@ -1,0 +1,9 @@
+h2{
+    font-family: verdana, arial;
+}
+p{
+    font-family: "lucida console", "courier new";
+    font-size:1em; /* 1em --> 100%*/
+    font-weight: bold;
+    font-style: italic;
+}
