@@ -1,0 +1,11 @@
+h1 {
+    text-shadow: 3px 3px 5px rgba(255, 0, 0, 0.911), -5px -5px 5px rgba(255, 238, 0, 0.76);
+}
+#box1{
+    width: auto;
+    height: auto;
+    background-color: aliceblue;
+    box-shadow: 3px 3px 10px;
+    border: 2px outset rgb(34, 244, 174);
+    border-radius: 10px;
+}
